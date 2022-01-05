@@ -12,24 +12,37 @@ body {
     width: 1200px;
     margin: 0 auto;
     overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .half-width {
     width: 600px;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .third-width {
     width: 399px;
     float:left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /****** HEADER ******/
 
 header {
-  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
   background-position: left;
+  flex-flow: row wrap;
+
 
 }
 
@@ -83,6 +96,9 @@ list-style: none;
 /****** ABOUT ******/
 #photo .full-width {
   margin-top:0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
 }
 #photo img {
